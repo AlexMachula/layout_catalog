@@ -13,16 +13,25 @@ $boldfont: bold;
   border: 1px solid #f3f3f3;
   box-sizing: border-box;
   border-radius: 5px;
-  padding: 30px 14px 14px;
+  padding: 15px 14px 14px;
   font-family: $mainfont;
   font-size: $smallfont;
   line-height: $linehight;
   margin-bottom: 50px;
 
   &__image {
+    display: block;
     margin: 0 auto;
-    margin-bottom: 45px;
     padding-bottom: 0;
+    padding-top: 15px;
+    transition: transform 1s;
+    border: 3px solid transparent;
+    border-radius: 4px;
+
+    &:hover {
+      transform: scale(1.2);
+      border-color: #f3f3f3;
+    }
   }
 
   &__name {
@@ -30,7 +39,7 @@ $boldfont: bold;
     font-size: 12px;
     line-height: 15px;
     color: #000;
-    margin: 0;
+    margin: 45px 0 0;
     padding: 0;
   }
 
@@ -94,9 +103,11 @@ $boldfont: bold;
   text-decoration: none;
   line-height: 40px;
   background-color: $linkcolor;
+  transition: 1s;
 
   &:hover {
     background-color: #fff;
     color: $linkcolor;
+    transform: scale(1.2);
   }
 }
