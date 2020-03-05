@@ -31,7 +31,7 @@
     padding: 0; }
   .card__code {
     margin-top: 5px; }
-  .card__star {
+  .card__stars {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
