@@ -71,9 +71,8 @@
   margin-right: 4px;
   width: 15px;
   height: 15px; }
-
-.star:last-child {
-  background-image: url("../images/star.svg"); }
+  .star:last-child {
+    background-image: url("../images/star.svg"); }
 
 .button {
   height: 40px;
@@ -97,9 +96,8 @@
   text-decoration: none;
   line-height: 40px;
   background-color: #00acdc; }
-
-.button:hover {
-  background-color: #fff;
-  color: #00acdc; }
+  .button:hover {
+    background-color: #fff;
+    color: #00acdc; }
 
 /*# sourceMappingURL=main_catalog.css.map */
