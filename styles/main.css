@@ -96,21 +96,32 @@ p {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px;
-  padding: 30px 14px 14px;
+  padding: 15px 14px 14px;
   font-family: "Roboto", sans-serif;
   font-size: 11px;
   line-height: 13px;
   margin-bottom: 50px; }
   .card__image {
+    display: block;
     margin: 0 auto;
-    margin-bottom: 45px;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    padding-top: 15px;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+    border: 3px solid transparent;
+    border-radius: 4px; }
+    .card__image:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+      border-color: #f3f3f3; }
   .card__name {
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     color: #000;
-    margin: 0;
+    margin: 45px 0 0;
     padding: 0; }
   .card__code {
     margin-top: 5px; }
@@ -178,9 +189,13 @@ p {
       align-self: center;
   text-decoration: none;
   line-height: 40px;
-  background-color: #00acdc; }
+  background-color: #00acdc;
+  -webkit-transition: 1s;
+  transition: 1s; }
   .button:hover {
     background-color: #fff;
-    color: #00acdc; }
+    color: #00acdc;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
 
 /*# sourceMappingURL=main.css.map */
