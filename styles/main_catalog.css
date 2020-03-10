@@ -17,22 +17,12 @@
   font-family: "Roboto", sans-serif;
   font-size: 11px;
   line-height: 13px;
-  margin-bottom: 50px; }
+  margin-bottom: 2px; }
   .card__image {
     display: block;
     margin: 0 auto;
     padding-bottom: 0;
-    padding-top: 15px;
-    -webkit-transition: -webkit-transform 1s;
-    transition: -webkit-transform 1s;
-    transition: transform 1s;
-    transition: transform 1s, -webkit-transform 1s;
-    border: 3px solid transparent;
-    border-radius: 4px; }
-    .card__image:hover {
-      -webkit-transform: scale(1.2);
-              transform: scale(1.2);
-      border-color: #f3f3f3; }
+    padding-top: 15px; }
   .card__name {
     font-weight: 500;
     font-size: 12px;
@@ -111,8 +101,6 @@
   transition: 1s; }
   .button:hover {
     background-color: #fff;
-    color: #00acdc;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2); }
+    color: #00acdc; }
 
 /*# sourceMappingURL=main_catalog.css.map */

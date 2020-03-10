@@ -3,21 +3,22 @@ p {
   margin: 0; }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  height: 60px;
+  justify-items: end;
+  max-height: 60px;
   padding: 0 50px;
   background-color: #fff;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
   .header__logo {
     padding: 10px 0;
-    line-height: 0; }
+    line-height: 0;
+    justify-self: start; }
 
 .nav__list {
   display: -webkit-box;
