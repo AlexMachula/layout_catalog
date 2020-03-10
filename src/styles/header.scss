@@ -10,17 +10,20 @@ p {
 }
 
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
   justify-content: space-between;
-  box-sizing: border-box;
-  height: 60px;
+  justify-items: end;
+  max-height: 60px;
   padding: 0 50px;
   background-color: #fff;
   margin-bottom: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo {
     padding: 10px 0;
     line-height: 0;
+    justify-self: start;
   }
 }
 

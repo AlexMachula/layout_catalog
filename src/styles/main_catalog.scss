@@ -17,21 +17,21 @@ $boldfont: bold;
   font-family: $mainfont;
   font-size: $smallfont;
   line-height: $linehight;
-  margin-bottom: 50px;
+  margin-bottom: 2px;
 
   &__image {
     display: block;
     margin: 0 auto;
     padding-bottom: 0;
     padding-top: 15px;
-    transition: transform 1s;
-    border: 3px solid transparent;
-    border-radius: 4px;
+    //transition: transform 1s;
+    //border: 3px solid transparent;
+    //border-radius: 4px;
 
-    &:hover {
-      transform: scale(1.2);
-      border-color: #f3f3f3;
-    }
+    //&:hover {
+    // transform: scale(1.2);
+    //border-color: #f3f3f3;
+    //}
   }
 
   &__name {
@@ -108,6 +108,6 @@ $boldfont: bold;
   &:hover {
     background-color: #fff;
     color: $linkcolor;
-    transform: scale(1.2);
+    //transform: scale(1.18);
   }
 }
